@@ -22,4 +22,4 @@
 	cod = checkout .
 	aa = add -A
 	pr = pull --rebase
-	am = commit --amenders
+	am = commit --amend
