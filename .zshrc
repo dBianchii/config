@@ -127,3 +127,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 PATH=~/.console-ninja/.bin:$PATH
 # bun completions
 [ -s "/home/gabriel/.bun/_bun" ] && source "/home/gabriel/.bun/_bun"
+export ANDROID_HOME=$HOME/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
