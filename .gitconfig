@@ -16,6 +16,7 @@
 	editor = code --wait
 [alias]
 	p = pull
+	s = status
   undo = reset --soft HEAD~
 	conf = config --global --edit
 	co = checkout
