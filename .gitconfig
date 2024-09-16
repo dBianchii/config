@@ -14,6 +14,8 @@
 	helper = !/usr/bin/gh auth git-credential
 [core]
 	editor = code --wait
+[push]
+	autoSetupRemote = true
 [alias]
 	p = pull
 	s = status
@@ -25,3 +27,4 @@
 	aa = add -A
 	pr = pull --rebase
 	am = commit --amend
+
