@@ -27,4 +27,3 @@
 	aa = add -A
 	pr = pull --rebase
 	am = commit --amend
-
