@@ -1,1 +1,5 @@
 alias tree='tree -a -I .git'
+alias p='pnpm'
+alias n='npm'
+alias g='git'
+alias t='turbo'
