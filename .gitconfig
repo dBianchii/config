@@ -7,13 +7,11 @@
 	required = true
 	clean = git-lfs clean -- %f
 [credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
+	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
+	helper = !/opt/homebrew/bin/gh auth git-credential
 [core]
-	editor = code --wait
+	editor = cursor --wait
 [push]
 	autoSetupRemote = true
 [alias]
@@ -23,7 +21,14 @@
 	conf = config --global --edit
 	co = checkout
 	ci = commit
+	cp = cherry-pick
 	cod = checkout .
 	aa = add -A
 	pr = pull --rebase
 	am = commit --amend
+	pf = push --force
+	wt = worktree
+[credential]
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[pull]
+	rebase = true
